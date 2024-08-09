@@ -25,7 +25,7 @@ function Login() {
     }
 
     if (isSuccess && user) {
-      toast.success("Login successful! Glad to see you again.");
+      toast.success("Successfully logged in! Welcome back!");
       navigate("/");
     }
 
